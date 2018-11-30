@@ -15,7 +15,7 @@ const asyncFirstSeries = require('./util').asyncFirstSeries
 module.exports = Trie
 
 /**
- * Use `require('merkel-patricia-tree')` for the base interface. In Ethereum applications stick with the Secure Trie Overlay `require('merkel-patricia-tree/secure')`. The API for the raw and the secure interface are about the same
+ * Use `require('merkle-patricia-tree')` for the base interface. In Ethereum applications stick with the Secure Trie Overlay `require('merkle-patricia-tree/secure')`. The API for the raw and the secure interface are about the same
  * @class Trie
  * @param {Object} [db] An instance of [levelup](https://github.com/rvagg/node-levelup/) or a compatible API. If the db is `null` or left undefined, then the trie will be stored in memory via [memdown](https://github.com/rvagg/memdown)
  * @param {Buffer|String} [root] A hex `String` or `Buffer` for the root of a previously stored trie
